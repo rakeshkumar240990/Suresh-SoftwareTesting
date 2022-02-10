@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<div class="windows group">
+<button id="btn1" onclick="myFunction1()">window1</button><br /> 
+
+<button id="btn2" onclick="myFunction2()">window2</button><br /> 
+<button id="btn3" onclick="myFunction3()">window3</button><br /> 
+</div>
+
+<script>
+function myFunction1() {
+ window1= window.open("", "window1");
+    window1.document.write("<p>window 1 opened</p>");
+
+
+}
+
+function myFunction2() {
+window2= window.open("", "window2");
+    window2.document.write("<p>window 2 opened</p>");
+}
+function myFunction3() {
+window3= window.open("", "window3");
+    window3.document.write("<p>window 3 opened</p>");
+
+}
+
+</script>
+
+</body>
+</html>
